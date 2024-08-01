@@ -11,13 +11,14 @@ This project implements a simple DNS server with a caching mechanism to resolve 
 - Provide a management interface for managing the DNS cache.
 - Handle DNS queries efficiently and securely.
 
-## Project Structure
+## Project owners
+Gohar Aghajanyan - gohar_aghajanyan@edu.aua.am
+Ruzanna Hunanyan -  ruzanna_hunanyan@edu.aua.am
 
 
 ## Prerequisites
 
 - Java Development Kit (JDK) installed on your system.
-- Basic understanding of DNS and Java programming.
 
 ## Setup
 
@@ -26,7 +27,20 @@ This project implements a simple DNS server with a caching mechanism to resolve 
    Clone the repository or download the project files to your local machine.
 
    ```sh
-   git clone https://github.com/goharAg/dns-project.git
-   cd dns-project
+   git clone https://github.com/goharAg/cs392-final-project
+   
 
+2. **Run the project**
+
+   To run the project compile the files. 
+
+   ```sh
+   javac DNSCache.java DNSServer.java DNSClient.java
+   ```
+   Then run the server and client files in different tabs.
+   ```sh
+   java DNSServer
+
+   java  DNSClient
+   ```
 
